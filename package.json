@@ -1,0 +1,41 @@
+{
+  "name": "memoiz",
+  "version": "0.0.1",
+  "description": "Node.js / javascript module to cache method's returned values",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --globals setImmediate,clearImmediate --check-leaks --colors -t 10000 --reporter spec $(find test/* -name '*.test.js')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/findhit/memoiz.git"
+  },
+  "keywords": [
+    "memoiz",
+    "memoize",
+    "memorize",
+    "cache",
+    "returned",
+    "values",
+    "value",
+    "findhit"
+  ],
+  "author": "José Moreira <jose.moreira@findhit.com>",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/findhit/memoiz/issues"
+  },
+  "homepage": "https://github.com/findhit/memoiz",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2"
+  },
+  "dependencies": {
+    "debug": "^2.1.1",
+    "findhit-util": "^0.2.5"
+  }
+}
