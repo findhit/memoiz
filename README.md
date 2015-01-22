@@ -1,4 +1,7 @@
 # memoiz
+
+[![Test Status](http://strider.findhit.com/findhit/memoiz/badge)](http://strider.findhit.com/findhit/memoiz) [![Dependency Status](https://david-dm.org/findhit/memoiz.svg)](https://david-dm.org/findhit/memoiz)
+
 Node.js / javascript module to cache method's return value
 
 ## Installation
